@@ -126,7 +126,7 @@ header nav ul li:last-of-type{
 
 /*コーヒー*/
 .coffee{
-    background-color: #eeedeb;
+    background-color: #8e95be;
 }
 .coffee h2{
     padding-left: 30px;
@@ -154,7 +154,7 @@ header nav ul li:last-of-type{
 
 /*アクセス*/
 .acsess{
-    background-color: #d7d2c9;
+    background-color: #8698d3;
 }
 .acsess h2{
     text-align: center;
@@ -183,7 +183,7 @@ footer{
 
 
 @media screen and (max-width: 480px){
-    
+    header h1
     header nav ul{
         display: flex;
         color:#fff;
@@ -194,10 +194,8 @@ footer{
         font-family: 'Kanit', sans-serif;
         letter-spacing: 0.1em;
     }
-    .header .inner .wrap  img{
-        max-width: 200px; /* 最大幅 */
-        min-width: 100px; /* 最小幅 */
-     }
+    
+
     /*ヒーロー*/
     .hero .catch-copy {
         position: absolute;
@@ -235,7 +233,7 @@ footer{
         font-size: 18px;
         letter-spacing: 0.1em;
     }
-
+   
     /*coffee*/
     .coffee .summary{
         margin-right: 50px;
@@ -252,10 +250,11 @@ footer{
         font-size: 10px;
         line-height: 2em;
     }
-    /* 横幅を指定するための要素 */
+  
 .map-wrap {
     max-width: 40%; /* ここに横幅を指定 */
   }
   
-
 }
+
+
