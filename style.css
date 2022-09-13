@@ -203,7 +203,8 @@ footer{
         font-size: 12px;
         color: #fff;
     }
-    
+    /*共通*/
+
     h2{
         margin-bottom: 30px;
         font-size: 22px;
@@ -213,10 +214,50 @@ footer{
         font-weight: 400;
     }
     h3{
-        font-size: 28px;
+        font-size: 23px;
         margin-bottom: 30px;
     }
     section{
         padding: 60px 0;
     }
+    .summary .caption{
+        margin-bottom: 36px;
+        font-size: 10px;
+        color: #72685e;
+        line-height: 1.8;
+    }
+    .menu .menu-title{
+        margin-bottom: 26px;
+        font-size: 18px;
+        letter-spacing: 0.1em;
+    }
+
+    /*coffee*/
+    .coffee .summary{
+        margin-right: 50px;
+    }
+    
+    /*food*/
+    .food .summary{
+        margin-left: 50px;
+    }
+    .acsess address{
+        margin-right: 50px;
+        color: #fff;
+        font-style: normal;
+        font-size: 10px;
+        line-height: 2em;
+    }
+    /* 横幅を指定するための要素 */
+.map-wrap {
+    max-width: 50%; /* ここに横幅を指定 */
+  }
+  
+  /* Google Mapを囲う要素 */
+  .map {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-top: 75%; /* 比率を4:3に固定 */
+  }
 }
